@@ -6,8 +6,8 @@
 
 <h2>Description</h2>
 
-https://github.com/renegadepilgrim/pizza-order
-https://renegadepilgrim.github.io/pizza-order
+<ol>https://github.com/renegadepilgrim/pizza-order</ol>
+<ol>https://renegadepilgrim.github.io/pizza-order</ol>
 
 <p>This program creates allows a user to select the size of pizza and the toppings and then adds up the total amount and presents a list of selections and the total cost of the pizza</p>
 

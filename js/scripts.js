@@ -50,10 +50,11 @@ $(document).ready(function(){
     });
 
     var pizza = new Order(pizzaSize, toppings);
-    pizza.pizzaCost();
-    pizza.PriceofToppings();
-    pizza.Total();
+    Order.pizzaCost();
+    Order.PriceofToppings();
+    Order.Total();
 
     $("#totalPrice").text(pizza.totalPrice);
+
   });
 });

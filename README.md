@@ -6,8 +6,8 @@
 
 <h2>Description</h2>
 
-<ol>https://github.com/renegadepilgrim/pizza-order</ol>
-<ol>https://renegadepilgrim.github.io/pizza-order</ol>
+<ol>https://github.com/renegadepilgrim/pizzaorder</ol>
+<ol>https://renegadepilgrim.github.io/pizzaorder</ol>
 
 <p>This program creates allows a user to select the size of pizza and the toppings and then adds up the total amount and presents a list of selections and the total cost of the pizza</p>
 
@@ -31,7 +31,7 @@
 <ol>Nothing specific is needed other than an internet connection.</ol>
 
 <h2>Known Bugs</h2>
-<ol>No known bugs.  While this is not a bug, you must refresh page to enter new order</ol>
+<ol>Total price is not reflecting when clicking submit.  Size of pizza and toppings does display though.</ol>
 
 <h2>Support and contact details</h2>
 

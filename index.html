@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pizza Order</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Order Pizza Here!</h2>
+        <p>Please select the size and toppings for your pizza.  Once the selections are made, a total price will be displayed for your pizza.</p>
+      </div>
+      <form id="pizza_order">
+        <div class="form-group">
+          <p>What size pizza would you like?</p>
+          <input type="checkbox" name="pizza-size" value="Small"> Small: $5.00 <br>
+          <input type="checkbox" name="pizza-size" value="Medium"> Medium: $7.50 <br>
+          <input type="checkbox" name="pizza-size" value="Large"> Large: $9.00 <br>
+        </div>
+        <div class="form-group">
+          <p>What toppings would you like on your pizza?  Each topping is an additional $0.50.</p>
+          <input type="checkbox" name="pizza-toppings" value="Mushrooms"> Mushrooms<br>
+          <input type="checkbox" name="pizza-toppings" value="Olives">Olives<br>
+          <input type="checkbox" name="pizza-toppings" value="Green peppers">Green Peppers<br>
+          <input type="checkbox" name="pizza-toppings" value="Red peppers">Red Peppers<br>
+          <input type="checkbox" name="pizza-toppings" value="Canadian bacon">Canadian Bacon<br>
+          <input type="checkbox" name="pizza-toppings" value="Pineapple">Pineapple<br>
+          <input type="checkbox" name="pizza-toppings" value="Tomatoes">Tomatoes<br>
+          <input type="checkbox" name="pizza-toppings" value="Chicken">Chicken<br>
+          <input type="checkbox" name="pizza-toppings" value="BBQ chicken">BBQ Chicken<br>
+          <input type="checkbox" name="pizza-toppings" value="Pepperoni">Pepperoni<br>
+          <input type="checkbox" name="pizza-toppings" value="Sausage">Sausage<br>
+          <input type="checkbox" name="pizza-toppings" value="Onions">Onions<br>
+          <input type="checkbox" name="pizza-toppings" value="Garlic">Garlic<br>
+        </div>
+       <button type="submit">Enter for price and confirmation</button>
+      </form>
+      <br>
+        <span id="sizeResponses">
+          <p><b>You have ordered the following size of pizza:</b></p>
+        </span>
+        <br>
+        <span id="toppingResponses">
+          <p><b>Your pizza will have the following toppings:</b></p>
+        </span>
+        <br>
+        <span id="">
+          <p><b>Your pizza will cost: <span id="totalPrice"></span></b></p>
+        </span>
+    </div>
+  </body>
+</html>
